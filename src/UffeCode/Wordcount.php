@@ -6,7 +6,7 @@
  * can be found in the LICENSE file.
  */
 
-namespace Sylae;
+namespace UffeCode;
 
 use IntlChar;
 use OutOfRangeException;

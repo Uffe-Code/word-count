@@ -1,8 +1,9 @@
 {
-  "name": "sylae/word-count",
+  "name": "uffe-code/word-count",
   "description": "PHP port of the Javascript iarna/word-count",
   "type": "library",
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Keira Dueck",
@@ -24,6 +25,6 @@
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.5.4"
+    "phpunit/phpunit": "^11.1.1"
   }
 }
