@@ -46,7 +46,7 @@ class Wordcount
 
         $last = null;
         $wc = 0;
-        foreach (preg_split('//u', $text, null, PREG_SPLIT_NO_EMPTY) as $char) {
+        foreach (preg_split('//u', $text, flags: PREG_SPLIT_NO_EMPTY) as $char) {
             $isLetter = self::isLetter(IntlChar::ord($char));
             if ($last !== $isLetter && $isLetter) {
                 $wc++;
